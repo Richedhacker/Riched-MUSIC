@@ -32,7 +32,7 @@ BOT_NAME = getenv("BOT_NAME", "RICHED MUSIC BOT")
 ASSUSERNAME = getenv("ASSUSERNAME", "RICHEDCHEATS")
 
 # MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI",mongodb+srv://mahavirkumar:mahavirkumar>@cluster0.3t52j36.mongodb.net/?appName=Cluster0)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
