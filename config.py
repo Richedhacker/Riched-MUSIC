@@ -21,15 +21,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("14579176"))
+API_HASH = getenv("39ac717c9b38891c6a4351fe8ea376f2")
+BOT_TOKEN = getenv("8287823604:AAHt3Q0ymjikNChgl8949lBxb0Ulc_N9S3g")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "RICHEDxD")
+BOT_USERNAME = getenv("BOT_USERNAME", "Mahavirmusicbot")
+BOT_NAME = getenv("BOT_NAME", "RICHED MUSIC BOT")
+ASSUSERNAME = getenv("ASSUSERNAME", "RICHEDCHEATS")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
